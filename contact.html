@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="..\jQuery\js\jquery.js"></script>
+    <script src="jquery\contact.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            $(".input-size").focus(function () {
+                $(".input-size").hide();
+            });
+            $("#show").click(function () {
+                $("#text").show();
+            });
+
+            $("#text").css("color", "white");
+            $("#text").css("background-color", "blue");
+
+        });
+    </script> -->
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right, maroon, rgb(26 145 255 / 59%), #4e4e18);
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(12, 7, 27, 0.4);
+            color: white;
+            border: 2px outset rgba(15, 150, 160, 0.726);
+            height: 469px;
+            width: 462px;
+            padding: 20px;
+        }
+
+        #title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 55px;
+        }
+
+        .box {
+            height: 436px;
+            width: 462px;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        .input-size {
+            color: rgba(31, 21, 21, 0.829);
+            width: 452px;
+            height: 34px;
+            border-radius: 14px;
+        }
+
+        .box-btn {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #submit {
+            background-color: #31ffa5;
+            color: rgba(13, 15, 24, 0.884);
+        }
+
+        #cancel {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body id="container">
+    <div class="form">
+        <div id="title">
+            <h1>Contact Details</h1>
+        </div>
+        <div class="box">
+            <label>Name :</label>
+            <input type="text" placeholder="Enter your name" class="input-size jq-focus">
+        </div>
+        <div class="box">
+
+            <label>Last Name :</label>
+            <input type="text" placeholder="Enter your last name" class="input-size jq-focus">
+        </div>
+        <div class="box">
+            <label>Phone :</label>
+            <input type="text" placeholder="enter your phone" class="input-size jq-focus">
+
+        </div>
+        <div class="box">
+            <label>Email Id :</label>
+            <input type="email" placeholder="enter your email" class="input-size jq-focus">
+
+        </div>
+        <div class="box-btn">
+
+            <input type="reset" class="input-size" id="cancel"> <br />
+            <button id="submit" class="input-size">Submit</button> <br />
+        </div>
+    </div>
+</body>
+
+</html>
