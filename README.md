@@ -2,7 +2,9 @@
 
 ### About Contact details Store
 
-this is my ..............
+Project name is Contact details collect where you can store contact details from the user in database because I have connected MySQL database.
+
+I have used HTML,CSS ,JavaScript,jQuery,PHP and MySQL and HTML,CSS,JavaScript and jQuery for front end and PHP,MySQL for backend.
 
 ## Module
 
